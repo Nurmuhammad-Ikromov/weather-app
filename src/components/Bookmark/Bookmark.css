@@ -1,0 +1,24 @@
+.delete-btn{
+    position: relative;
+}
+
+.delete-btn::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-image: url('../../assets/remove.png');
+    position: absolute;
+    background-size: contain;
+}
+
+.bookmark-btn{
+    padding: 6px 20px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    background-color: rgb(40, 77, 17);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,5 +1,16 @@
-.App {
-  text-align: center;
+.App {}
+
+.city {
+  display: flex;
+  /* align-items: center; */
+
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -32,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
